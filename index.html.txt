@@ -2,15 +2,32 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>أعمالي الفنية</title>
-  <link rel="stylesheet" href="style.css">
+  <title>موقعي الأول</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 
 <body>
 
-  <h1>مرحبا بكم</h1>
-  <button id="cta">تواصل معي</button>
+  <h1>الموقع شغال ✅</h1>
+  <p>هذه أول صفحة على GitHub Pages</p>
 
-  <script src="script.js"></script>
+  <button onclick="alert('مرحبا بك 🎉')">اضغط هنا</button>
+
 </body>
 </html>
