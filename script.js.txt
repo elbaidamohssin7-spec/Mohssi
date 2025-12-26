@@ -1,0 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("cta").onclick = function () {
+    alert("شكراً لزيارتك 🎨");
+  };
+});
